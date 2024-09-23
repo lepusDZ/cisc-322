@@ -57,7 +57,7 @@ const members = [
   },
   {
     name: "Roman Rodchenkov",
-    role: "Member",
+    role: "Presenter",
     description: "Passionate about software quality and testing.",
     image: "https://via.placeholder.com/200",
   },
