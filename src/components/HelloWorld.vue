@@ -15,13 +15,19 @@
           prepend-icon="mdi-rocket-launch-outline"
           rounded="lg"
           variant="outlined"
-          @click="$emit('scroll-to-group')"
+          @click="$emit('scroll-to-section', 'group-members')"
         >
           <template #title>
             <h2 class="text-h5 font-weight-bold">Group Members</h2>
           </template>
 
-          <v-overlay opacity=".06" scrim="primary" contained model-value persistent />
+          <v-overlay
+            opacity=".06"
+            scrim="primary"
+            contained
+            model-value
+            persistent
+          />
         </v-card>
       </v-col>
 
@@ -35,10 +41,16 @@
           rounded="lg"
           target="_blank"
           title="Assignment 1"
-          disabled
           variant="text"
+          @click="$emit('scroll-to-section', 'assignment-1')"
         >
-          <v-overlay opacity=".06" scrim="primary" contained model-value persistent />
+          <v-overlay
+            opacity=".06"
+            scrim="primary"
+            contained
+            model-value
+            persistent
+          />
         </v-card>
       </v-col>
 
@@ -54,7 +66,13 @@
           disabled
           variant="text"
         >
-          <v-overlay opacity=".06" scrim="primary" contained model-value persistent />
+          <v-overlay
+            opacity=".06"
+            scrim="primary"
+            contained
+            model-value
+            persistent
+          />
         </v-card>
       </v-col>
 
@@ -70,15 +88,20 @@
           disabled
           variant="text"
         >
-          <v-overlay opacity=".06" scrim="primary" contained model-value persistent />
+          <v-overlay
+            opacity=".06"
+            scrim="primary"
+            contained
+            model-value
+            persistent
+          />
         </v-card>
       </v-col>
     </v-row>
   </v-responsive>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style scoped>
 .hoverable-card {
