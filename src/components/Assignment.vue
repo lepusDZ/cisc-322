@@ -8,7 +8,7 @@
           outlined
           @click="openLink(pdfLink)"
         >
-        <v-icon class="mr-2" size="200">mdi-file-pdf-box</v-icon>
+          <v-icon class="mr-2" size="200">mdi-file-pdf-box</v-icon>
           <v-card-title class="text-center">
             Assignment {{ assignmentNumber }} PDF
           </v-card-title>
@@ -24,7 +24,7 @@
           outlined
           @click="openLink(presentationLink)"
         >
-        <v-icon class="mr-2" size="200">mdi-presentation-play</v-icon>
+          <v-icon class="mr-2" size="200">mdi-presentation-play</v-icon>
           <v-card-title class="text-center">
             Assignment {{ assignmentNumber }} Presentation
           </v-card-title>
@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
+import { defineProps } from "vue";
 
 const props = defineProps({
   assignmentNumber: {
@@ -56,7 +56,7 @@ const props = defineProps({
 });
 
 const openLink = (url) => {
-  window.open(url, '_blank');
+  window.open(url, "_blank");
 };
 </script>
 

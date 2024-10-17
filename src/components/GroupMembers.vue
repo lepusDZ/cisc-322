@@ -1,26 +1,26 @@
 <template>
-    <v-responsive class="align-center fill-height mx-auto" max-width="900">
-      <v-row justify="center">
-        <v-col
-          v-for="(member, index) in members"
-          :key="index"
-          cols="12"
-          sm="6"
-          md="4"
-        >
-          <v-card class="hoverable-card" outlined>
-            <v-img :src="member.image" height="200px"></v-img>
-            <v-card-title class="text-center">{{ member.name }}</v-card-title>
-            <v-card-subtitle class="text-center mb-2">{{
-              member.role
-            }}</v-card-subtitle>
-            <!-- <v-card-text class="text-center">{{
+  <v-responsive class="align-center fill-height mx-auto" max-width="900">
+    <v-row justify="center">
+      <v-col
+        v-for="(member, index) in members"
+        :key="index"
+        cols="12"
+        sm="6"
+        md="4"
+      >
+        <v-card class="hoverable-card" outlined>
+          <v-img :src="member.image" height="200px"></v-img>
+          <v-card-title class="text-center">{{ member.name }}</v-card-title>
+          <v-card-subtitle class="text-center mb-2">{{
+            member.role
+          }}</v-card-subtitle>
+          <!-- <v-card-text class="text-center">{{
               member.description
             }}</v-card-text> -->
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-responsive>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-responsive>
 </template>
 
 <script setup>
