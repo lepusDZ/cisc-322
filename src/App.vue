@@ -19,7 +19,7 @@
       >
         <Assignment
           :assignmentNumber="1"
-          pdfLink="cisc-322/CISC332_A1.pdf"
+          pdfLink="CISC332_A1.pdf"
           presentationLink="https://youtu.be/8MGcWPZLck0"
         />
       </section>

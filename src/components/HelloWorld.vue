@@ -34,7 +34,7 @@
       <!-- Other cards -->
       <v-col cols="4">
         <v-card
-          class="py-4"
+          class="py-4 hoverable-card"
           color="surface-variant"
           prepend-icon="mdi-text-box-outline"
           rel="noopener noreferrer"
