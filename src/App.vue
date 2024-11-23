@@ -23,6 +23,19 @@
           presentationLink="https://youtu.be/8MGcWPZLck0"
         />
       </section>
+
+      <!-- Assignment 1 Section -->
+      <section
+        id="assignment-2"
+        class="section fill-height"
+        style="background-color: #121212"
+      >
+        <Assignment
+          :assignmentNumber="2"
+          pdfLink="CISC332_A2.pdf"
+          presentationLink="https://youtu.be/rhr57xNxSWs"
+        />
+      </section>
     </v-main>
   </v-app>
 </template>
@@ -58,10 +71,6 @@ export default {
 </script>
 
 <style scoped>
-.fill-height {
-  min-height: 20vh;
-}
-
 .section {
   scroll-snap-align: start;
   scroll-snap-stop: always;
