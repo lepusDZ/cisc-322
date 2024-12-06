@@ -32,7 +32,7 @@
       >
         <Assignment
           :assignmentNumber="2"
-          pdfLink="CISC332_A2.pdf"
+          pdfLink="CISC322_A2.pdf"
           presentationLink="https://youtu.be/rhr57xNxSWs"
         />
       </section>
