@@ -85,8 +85,8 @@
           rounded="lg"
           target="_blank"
           title="Assignment 3"
-          disabled
           variant="text"
+          @click="$emit('scroll-to-section', 'assignment-3')"
         >
           <v-overlay
             opacity=".06"

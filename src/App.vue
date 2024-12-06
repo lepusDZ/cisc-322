@@ -19,7 +19,7 @@
       >
         <Assignment
           :assignmentNumber="1"
-          pdfLink="CISC332_A1.pdf"
+          pdfLink="CISC322_A1.pdf"
           presentationLink="https://youtu.be/8MGcWPZLck0"
         />
       </section>
@@ -34,6 +34,18 @@
           :assignmentNumber="2"
           pdfLink="CISC332_A2.pdf"
           presentationLink="https://youtu.be/rhr57xNxSWs"
+        />
+      </section>
+
+      <section
+        id="assignment-3"
+        class="section fill-height"
+        style="background-color: #121212"
+      >
+        <Assignment
+          :assignmentNumber="3"
+          pdfLink="CISC322_A3.pdf"
+          presentationLink="https://youtu.be/TTueQlnV7oM"
         />
       </section>
     </v-main>
